@@ -1,0 +1,25 @@
+*{
+    margin-top: 7px;
+}
+img{
+    width: 60vw;
+    height: 70vh;
+    margin-left: 280px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+p{
+    text-align: center;
+    line-height: 32px;
+}
+h2{
+    text-align: center;
+
+}
+h4{
+    font-weight: 700;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}

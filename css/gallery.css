@@ -1,0 +1,20 @@
+.shade_Container{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    gap: 60px;
+}
+img{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 12px;
+}
+a{
+    text-decoration: none;
+}
+.shade_img{
+    width: 30px;
+    height: 30px;
+}
