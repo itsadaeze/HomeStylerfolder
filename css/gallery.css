@@ -5,6 +5,7 @@
 .container{
     display: flex;
     gap: 40px;
+    padding: 20px;
 }
 .firstimage{
     margin-top: 40px;
