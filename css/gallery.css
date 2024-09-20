@@ -4,17 +4,34 @@
 }
 .container{
     display: flex;
-    gap: 60px;
+    gap: 40px;
 }
-img{
-    width: 25vw;
+.firstimage{
+    margin-top: 40px;
+    width: 100%;
     height: 50vh;
     border-radius: 12px;
 }
 a{
     text-decoration: none;
+    margin-left: 10px;
+    font-size:20px;
 }
 .shade_img{
     width: 30px;
     height: 30px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .shade_Container{
+        margin-top: 50px;
+    }
 }

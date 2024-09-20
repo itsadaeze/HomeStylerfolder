@@ -6,7 +6,7 @@ body{
 /* Products section */
 .container{
     position: relative;
-    max-width: 1350px;
+    /* max-width: 1350px; */
     width: 100%;
     padding: 100px;
     
@@ -14,7 +14,9 @@ body{
 }
 .filter_buttons{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    /* flex-wrap: wrap; */
     align-items: center;
     gap: 10px;
 }
@@ -34,6 +36,8 @@ button.active{
 }
 .filterable_cards{
     display: flex;
+    
+    width: 100%;
     margin-top: 25px;
     gap: 20px;
     flex-wrap: wrap;
@@ -65,4 +69,16 @@ button.active{
 .card_text{
     font-size: 18px;
     color: #333;
+}
+
+@media screen and (max-width: 768px){
+    .filter_buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .container{
+        padding: 100px 20px;
+    }
 }

@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: #b70eeb;
     color: #ecf0f1;
     padding: 70px;
     margin-top: 60px;
@@ -34,7 +34,7 @@ section {
 }
 
 h2 {
-    color: blueviolet;
+    color: #b70eeb;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -58,11 +58,32 @@ strong {
 }
 
 .contact a {
-    color: blueviolet;
+    color: #b70eeb;
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact a:hover {
     text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 768px){
+    section{
+        padding: 20px;
+        width: 90%;
+    }
+
+    header p{
+        font-size: 0.9em;
+    }
+
+    h2{
+        font-size:1.5em;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
 }
