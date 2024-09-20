@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us | Interior Design</title>
+    <link rel="stylesheet" href="/css/more.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <!-- <img src="images/logo.png" alt="logo" class="logo-img"> -->
+                HomeStyler
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/about.html" class="nav-link">About Us</a>
+                <a href="/course" class="nav-link">Gallery</a>
+                <div class="drop">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Product</a>
+                    <ul class="dropdown">
+                        <li><a href="/product/funiture.html">Funiture</a></li>
+                        <li><a href="/product/kitchen.html">Kitchen</a></li>
+                        <li><a href="/product/lighting.html">Lighting</a></li>
+                        <li><a href="/product/decor.html">Decor</a></li>
+                        <li><a href="/product/bath.html">Bathroom</a></li>
+                    </ul>
+                </div>
+                <a href="/watchlist" class="nav-link">Designs</a>
+                
+            </div>
+            <div class="cta">
+                <a href="/contact/contact.html" class="cta-button">Contact</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span id="menu-icon" class="icon">☰</span>
+              
+            </button>
+            <div id="mobile-menu" class="mobile-menu">
+                <span id="close-icon" class="cancel-icon" onclick="closeMenu()">✖</span>
+                <a href="/" class="mobile-link" onclick="closeMenu()">Home</a>
+                <a href="/about/about.html" class="mobile-link" onclick="closeMenu()">About Us</a>
+                <a href="/" class="mobile-link" onclick="closeMenu()">Gallery</a>
+                <div class="drop">
+                    <a href="#" class="mobile-link" onclick="closeMenu()">Product</a>
+                    <ul class="dropdown">
+                        <li><a href="/product/funiture.html">Funiture</a></li>
+                        <li><a href="/product/kitchen.html">Kitchen</a></li>
+                        <li><a href="/product/lighting.html">Lighting</a></li>
+                        <li><a href="/product/decor.html">Decor</a></li>
+                        <li><a href="/product/bath.html">Bathroom</a></li>
+                    </ul>
+                </div>
+                <a href="/" class="mobile-link" onclick="closeMenu()">Designs</a>
+              
+                <!-- <a href="/signupform" class="mobile-cta-button" onclick="closeMenu()">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>About Us</h1>
+        <p>Welcome to <strong>Home Styler</strong>, where creativity meets functionality, and your dream space comes to life.</p>
+    </header>
+
+    <section class="story">
+        <h2>Our Story</h2>
+        <p>Founded in 2023, <strong>Home Styler</strong> has grown from a passion for beautiful interiors into a thriving design studio. What started as a small project has transformed into a full-scale interior design service, dedicated to crafting homes and businesses that not only look stunning but feel like home. Our team of designers, architects, and craftsmen come together to bring you unique and personalized design solutions.</p>
+    </section>
+
+    <section class="philosophy">
+        <h2>Our Philosophy</h2>
+        <p>At <strong>Home Styler</strong>, we believe that your space should tell a story. Whether you prefer sleek modern designs, warm rustic touches, or timeless elegance, we work closely with you to bring your vision to life. We focus on functionality, sustainability, and beauty, ensuring that every detail is perfect.</p>
+    </section>
+
+    <section class="services">
+        <h2>What We Do</h2>
+        <ul>
+            <li><strong>Interior Design Consultation:</strong> We meet with you to discuss your style, needs, and aspirations.</li>
+            <li><strong>Space Planning & Furniture Layout:</strong> Optimizing your space for comfort and flow.</li>
+            <li><strong>Color & Material Selection:</strong> Creating the perfect palette for your interior.</li>
+            <li><strong>Custom Furniture & Decor:</strong> Crafting unique pieces to suit your style.</li>
+            <li><strong>Project Management:</strong> Ensuring a seamless design process from start to finish.</li>
+        </ul>
+    </section>
+
+    <section class="why-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><strong>Personalized Designs:</strong> We tailor every project to reflect the personality and lifestyle of our clients.</li>
+            <li><strong>Experienced Team:</strong> Our designers bring years of expertise and creativity to each project.</li>
+            <li><strong>Attention to Detail:</strong> We’re perfectionists at heart, focusing on every little detail that makes a big impact.</li>
+            <li><strong>Customer Satisfaction:</strong> Our mission is to exceed your expectations and turn your dream into reality.</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Let’s Create Together</h2>
+        <p>Ready to transform your space? <a href="contact.html">Get in touch</a> with us today for a consultation, and let’s begin the journey toward your perfect interior.</p>
+    </section>
+ <!-- Footer  -->
+ <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-logosection">
+                <h2>Home Styler</h2>
+                <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           </div>
+            <div class="col-md-4">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" class="footer-a">About</a></li>
+                    <li><href="#" class="footer-a">Product</a></li>
+                    <li><href="#" class="footer-a">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><href="#" class="footer-a">Facebook</a></li>
+                    <li><href="#" class="footer-a">Twitter</a></li>
+                    <li><href="#" class="footer-a">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Contact</h4>
+                <ul>
+                    <li><href="#" class="footer-a">consulto98@gmail.com</a></li>
+                    <li><href="#" class="footer-a">76/A, Green road, NY</a></li>
+                    <li><href="#" class="footer-a">(80) 783 367-3904</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Company Name. All rights reserved.
+        </div>
+    </div>
+    </footer>
+    
+</body>
+</html>
